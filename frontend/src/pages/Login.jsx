@@ -4,8 +4,8 @@ import { useAuth } from '../hooks/useAuth';
 
 const Login = () => {
   const [credentials, setCredentials] = useState({
-    email: '',
-    password: ''
+    email: 'admin@gmail.com',
+    password: 'admin1'
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { login, error, apiStatus, checkApiConnection } = useAuth();
